@@ -1,5 +1,4 @@
 package com.company;
-import java.util.Arrays;
 
 public class MatrixMultiply {
     public static double[][] matrix1 = {{1, 2, 3}, {1, 2, 3}, {1, 2, 3}};

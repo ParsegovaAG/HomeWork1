@@ -1,7 +1,6 @@
 package com.company;
 
 public class ReverseAlphabet {
-    public char[] alphabet = new char[26];
 
     public static char[] createAlphabet(){
         char[] alphabet = new char[26];
