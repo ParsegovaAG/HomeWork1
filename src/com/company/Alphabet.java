@@ -12,8 +12,8 @@ public class Alphabet {
 
     public static void printAlphabet(char[] alphabet) {
         /* WRITE CODE HERE */
-        for (int i = 0; i < alphabet.length; i++){
-            System.out.print(alphabet[i]);
+        for (char c : alphabet) {
+            System.out.print(c);
         }
         System.out.println();
     }

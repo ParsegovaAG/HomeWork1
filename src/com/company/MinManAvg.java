@@ -7,11 +7,9 @@ public class MinManAvg {
     public static int n = 5;
 
 
-    public static double[] createRandomArray(int n) {
+    private static double[] createRandomArray(int n) {
         double[] RandomArray = new double[n];
-        for(int i = 0; i < RandomArray.length; i++){
-            RandomArray[i] = Math.random();
-        }
+        for(int i = 0; i < RandomArray.length; i++) RandomArray[i] = Math.random();
         return RandomArray;
     }
 
